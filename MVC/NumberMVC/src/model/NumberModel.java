@@ -12,7 +12,7 @@ public class NumberModel extends Observable{
 		this.notifyObservers(this);
 	}
 
-	public String getNumberString() {
+	public String getNumberAsString() {
 		return Integer.toString(number);
 	}
 

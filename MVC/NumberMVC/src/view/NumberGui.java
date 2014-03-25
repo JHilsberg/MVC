@@ -8,8 +8,9 @@ import java.util.Observer;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
-import model.NumberModel;
 import controller.NumberController;
+import model.NumberModel;
+
 
 public class NumberGui extends JFrame implements Observer {
 	
@@ -48,7 +49,7 @@ public class NumberGui extends JFrame implements Observer {
 	@Override
 	public void update(Observable arg0, Object mod){
 		if(mod instanceof NumberModel){
-			this.numberField.setText("Number: " + ((NumberModel) mod).getNumberString());
+			this.numberField.setText("Number: " + ((NumberModel) mod).getNumberAsString());
 		}
 	}
 }
