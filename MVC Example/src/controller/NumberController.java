@@ -3,8 +3,6 @@ package controller;
 import java.awt.event.*;
 import java.util.*;
 
-import javax.swing.JLabel;
-
 import view.*;
 import model.*;
 

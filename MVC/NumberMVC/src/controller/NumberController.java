@@ -13,7 +13,6 @@ public class NumberController implements ActionListener {
 	private NumberModel model;
 
 	public NumberController() {
-
 		this.model = new NumberModel();
 		this.view = new NumberGui(this);
 		
